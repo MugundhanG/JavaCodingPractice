@@ -70,7 +70,7 @@ public class Main {
 
         newpaymentProcessor2.process(1000);
 
-        System.out.println("***************  Pluggability and Debugging Ease ends  ********************");
+        System.out.println("***************  Pluggability and Debugging Ease ends here ********************");
 
     }
 }
