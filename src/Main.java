@@ -1,3 +1,4 @@
+import AbstractionPractice.AbstractionPractice;
 import Modularity.product.Product;
 import Modularity.product.ProductService;
 import Modularity.user.UserService;
@@ -10,6 +11,7 @@ import Reusability.RegularEmployee;
 import Reusability.ContractEmployee;
 import Reusability.Project;
 import Reusability.Report;
+import AbstractionPractice.LearnAbstraction;
 
 
 public class Main {
@@ -72,5 +74,42 @@ public class Main {
 
         System.out.println("***************  Pluggability and Debugging Ease ends here ********************");
 
+        System.out.println("***************  Abstraction practice starts ********************");
+
+        AbstractionPractice newAbsPractice = new LearnAbstraction("Mugi Code"); //Creating new instance (object) of a class "Abstraction Practice"
+        newAbsPractice.displayCode(); //Just using the method from parent class without any modification
+        newAbsPractice.makeCode(); //We are using the Overridden method from a parent class in our own class
+
+        System.out.println("***************  Abstraction practice ends ********************");
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
