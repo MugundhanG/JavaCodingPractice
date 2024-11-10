@@ -1,9 +1,9 @@
 package AbstractionPractice;
 
-public class LearnAbstraction extends AbstractionPractice {
+public class LearnAbstractionAbstractClass extends AbstractionPracticeAbstractClass {
 
     //Using Parent method using Super keyword in the child class constructor
-    public LearnAbstraction(String coding) {
+    public LearnAbstractionAbstractClass(String coding) {
         super(coding);
     }
 
