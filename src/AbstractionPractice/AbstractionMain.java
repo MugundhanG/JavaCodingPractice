@@ -5,8 +5,8 @@ public class AbstractionMain {
 
     public static void main(String[] args) {
         System.out.println("***************  Abstraction practice starts ********************");
-
-        AbstractionPracticeAbstractClass newAbsPractice = new LearnAbstractionAbstractClass("Mugi Code"); //Creating new instance (object) of a class "Abstraction Practice"
+        //Creating new instance (object) of a class "Abstraction Practice"
+        AbstractionPracticeAbstractClass newAbsPractice = new LearnAbstractionAbstractClass("Mugi Code");
         newAbsPractice.displayCode(); //Just using the method from parent class without any modification
         newAbsPractice.makeCode(); //We are using the Overridden method from a parent class in our own class
 
