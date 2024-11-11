@@ -2,6 +2,7 @@ package EncapsulationPractice;
 
 public class EncapsulationPractice {
     //Make the class fields private.
+    //The name and age fields in the Person class are marked as private, so they cannot be accessed directly from outside the class.
     private String code;
     private int codeDuration;
 
