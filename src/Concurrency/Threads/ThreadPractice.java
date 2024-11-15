@@ -10,7 +10,7 @@ public class ThreadPractice extends Thread{
                 Thread.sleep(1000);
                 System.out.println("Thread is paused for 1 second after printing " + i);// Pause the thread for 500 milliseconds
             } catch (InterruptedException e) {
-                //If we got receive exception, that will catch here with its message
+                //If we receive exception, that will catch here with its message
                 System.out.println("Thread interrupted: " + e.getMessage());
             }
         }
