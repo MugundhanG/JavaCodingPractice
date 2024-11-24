@@ -9,8 +9,8 @@ public class InterfaceMain {
     public static void main(String[] args) {
         //Runnable Interface
         //By using runnable interface, we can not retrieve any results
-        RunnableInterfacePractice runnableThread = new RunnableInterfacePractice();
-        runnableThread.run();
+        Thread runnableThread = new Thread(new RunnableInterfacePractice());
+        runnableThread.start();
 
 
         System.out.println("*******Print by Callable Interface*******");
